@@ -1,4 +1,113 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.header__container {
+  height: 600px;
+  padding-top: 20px;
+  background-image: url(../img/background.png);
+}
+
+.header__container .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container .nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  color: #424551;
+  transition: all 0.5s;
+}
+a:hover {
+  color: #ff5a30;
+}
+
+.header__container .nav .button {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__container .nav .button .iphone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__container .nav .button .iphone p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+}
+.header__container .nav .button .chat {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__container .nav .button .chat p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header__container .aside {
+  margin-top: 100px;
+}
+
+.header__container .aside span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #424551;
+}
+
+.header__container .aside h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9a9ca5;
+}
+
+.header__container .aside h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.header__container .aside p {
+  width: 600px;
+  height: 90px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #787a80;
 }
